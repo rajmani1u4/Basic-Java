@@ -1,0 +1,22 @@
+public class LoopExample {
+    public static void main(String[] args) {
+        int i = 1;
+
+        // Using while loop
+        System.out.println("Using while loop:");
+        while (i <= 5) {
+            System.out.println("Number: " + i);
+            i++;
+        }
+
+        // Resetting i for do-while loop
+        i = 1;
+
+        // Using do-while loop
+        System.out.println("\nUsing do-while loop:");
+        do {
+            System.out.println("Number: " + i);
+            i++;
+        } while (i <= 5);
+    }
+}
